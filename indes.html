@@ -27,6 +27,12 @@
             button{
 				background-color:aqua;
 			}
+
+			#button-box{
+				display:flex;
+				gap:20px;
+				margin:auto;
+			}
 		</style>
 	</head>
 	<body>
@@ -75,11 +81,17 @@
 		<label>Submit Time</label>
 		<input type="text" Id="Time">
 		<br><br>
-		<button>Submit</button>
+		<div id="button-box">
+			<button class="submit">Submit</button>
+			<button class="login">login</button>
+			<button class="cancel">cancel</button>
+	    </div>
 
 		<hr>
 		<marquee direction="right" id="a1">Thank You For Apply</marquee>
 		<hr>
+
+
 		
 
 	</body>
